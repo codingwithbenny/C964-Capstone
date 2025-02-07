@@ -76,7 +76,7 @@ function ProjectionSelection({ states, years, mlData }) {
   return (
     <div className="p-6 rounded-lg shadow-lg w-full">
       <h2 className="text-2xl font-bold mb-4 text-center">Projected Vehicle Registrations</h2>
-      <p className="p-3 max-w-2xl mx-auto text-center">By selecting a state you will be triggering our machine learning algorithm powered by TensorFlow.js to initiate. Our application will import 31 years of vehicle registration data for your state from Data.gov and run it through the predictive algorithm.</p>
+      <p className="p-3 max-w-2xl mx-auto text-center">By selecting a state you will be triggering our machine learning algorithm powered by TensorFlow.js to initiate. Our application will import 31 years of vehicle registration data for your state from Data.gov and run it through the predictive algorithm. Please allow around 30 seconds for the data to generate. Progress can be viewed in the browser console.</p>
 
       <label className="block font-medium text-white-700 text-lg mb-2">Select a State:</label>
       <select
