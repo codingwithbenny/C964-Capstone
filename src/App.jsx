@@ -83,6 +83,7 @@ function App() {
     <div className="p-4 flex flex-col items-center w-full">
       <h1 className="text-2xl font-bold mb-1">Prediciting Vehicle Registration Numbers - C964 Capstone Project</h1>
       <h2 className="font-medium mb-1 text-xl">Benedetto Tamburrino</h2>
+      <h2 className="font-medium mb-1 text-xl">StudentID: 012314985</h2>
       <p className="m-3 text-lg mb-8">Have you ever needed to view past or future projections of vehicle registration numbers? What this tool does is allows users to analyze past historical registration numbers by state or utilize a machine learning algorithim to predict vehicle registration trends up to 10 years into the future. This can help with resource planning for government agencies along with businesses that coincide with vehicle registration. We provide unique data to help users get an idea on where to expect new vehicular trends.</p>
       <hr className="border-t border-gray-400 w-3/4 mx-auto" />
       <p className="text-xl p-6">Get Started Below. You can choose to generate future projected data or query past historical data.</p>
