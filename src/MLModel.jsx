@@ -48,9 +48,6 @@ export const trainModel = async (years, values) => {
   };
 };
 
-
-
-
 // Predict future values using the trained model
 export const predictFutureValues = async ({ model, minValue, maxValue }, futureYears, minYear, maxYear) => {
   if (!model) {
